@@ -1,0 +1,475 @@
+BLASTN 2.7.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: User specified sequence set (Input: S1-1A_S22_L001_001.fasta).
+           77 sequences; 4,871,281 total letters
+
+
+
+Query= AY211490.1 Salmonella enterica subsp. enterica serovar Paratyphi B
+NCTC 5706 putative gntR family regulatory protein (STM3357) and
+putative cation transporter (STM3356) genes, partial cds
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  24 length=45762 depth=1.11x                                         538     1e-153
+
+
+> 24 length=45762 depth=1.11x
+Length=45762
+
+ Score = 538 bits (291),  Expect = 1e-153
+ Identities = 291/291 (100%), Gaps = 0/291 (0%)
+ Strand=Plus/Minus
+
+Query  1     AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4027  AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  3968
+
+Query  61    CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3967  CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  3908
+
+Query  121   GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3907  GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  3848
+
+Query  181   TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3847  TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  3788
+
+Query  241   ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  291
+             |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3787  ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  3737
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1314809280
+
+
+  Database: User specified sequence set (Input: S1-1A_S22_L001_001.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 4,871,281
+  Number of sequences in database:  77
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+
+------------------------------------------------------------------------
+
+Database: User specified sequence set (Input: S1-1B_S17_L001_001.fasta).
+           79 sequences; 4,871,099 total letters
+
+
+
+Query= AY211490.1 Salmonella enterica subsp. enterica serovar Paratyphi B
+NCTC 5706 putative gntR family regulatory protein (STM3357) and
+putative cation transporter (STM3356) genes, partial cds
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  24 length=45762 depth=1.15x                                         538     1e-153
+
+
+> 24 length=45762 depth=1.15x
+Length=45762
+
+ Score = 538 bits (291),  Expect = 1e-153
+ Identities = 291/291 (100%), Gaps = 0/291 (0%)
+ Strand=Plus/Plus
+
+Query  1      AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41736  AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  41795
+
+Query  61     CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  120
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41796  CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  41855
+
+Query  121    GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  180
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41856  GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  41915
+
+Query  181    TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  240
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41916  TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  41975
+
+Query  241    ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  291
+              |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41976  ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  42026
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1314748800
+
+
+  Database: User specified sequence set (Input: S1-1B_S17_L001_001.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 4,871,099
+  Number of sequences in database:  79
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+
+--------------------------------------------------------------------------
+
+Database: User specified sequence set (Input: S1-2A_S20_L001_001.fasta).
+           75 sequences; 4,871,712 total letters
+
+
+
+Query= AY211490.1 Salmonella enterica subsp. enterica serovar Paratyphi B
+NCTC 5706 putative gntR family regulatory protein (STM3357) and
+putative cation transporter (STM3356) genes, partial cds
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  24 length=45765 depth=1.04x                                         538     1e-153
+
+
+> 24 length=45765 depth=1.04x
+Length=45765
+
+ Score = 538 bits (291),  Expect = 1e-153
+ Identities = 291/291 (100%), Gaps = 0/291 (0%)
+ Strand=Plus/Plus
+
+Query  1      AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41739  AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  41798
+
+Query  61     CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  120
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41799  CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  41858
+
+Query  121    GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  180
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41859  GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  41918
+
+Query  181    TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  240
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41919  TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  41978
+
+Query  241    ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  291
+              |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41979  ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  42029
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1314936990
+
+
+  Database: User specified sequence set (Input: S1-2A_S20_L001_001.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 4,871,712
+  Number of sequences in database:  75
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+
+------------------------------------------------------------------------
+
+Database: User specified sequence set (Input: S2-1A_S21_L001_001.fasta).
+           76 sequences; 4,870,999 total letters
+
+
+
+Query= AY211490.1 Salmonella enterica subsp. enterica serovar Paratyphi B
+NCTC 5706 putative gntR family regulatory protein (STM3357) and
+putative cation transporter (STM3356) genes, partial cds
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  23 length=45762 depth=1.14x                                         538     1e-153
+
+
+> 23 length=45762 depth=1.14x
+Length=45762
+
+ Score = 538 bits (291),  Expect = 1e-153
+ Identities = 291/291 (100%), Gaps = 0/291 (0%)
+ Strand=Plus/Minus
+
+Query  1     AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4027  AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  3968
+
+Query  61    CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3967  CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  3908
+
+Query  121   GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3907  GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  3848
+
+Query  181   TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3847  TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  3788
+
+Query  241   ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  291
+             |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3787  ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  3737
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1314738810
+
+
+  Database: User specified sequence set (Input: S2-1A_S21_L001_001.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 4,870,999
+  Number of sequences in database:  76
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+
+-----------------------------------------------------------------------
+
+Database: User specified sequence set (Input: S2-2C_S64_L001_001.fasta).
+           73 sequences; 4,871,497 total letters
+
+
+
+Query= AY211490.1 Salmonella enterica subsp. enterica serovar Paratyphi B
+NCTC 5706 putative gntR family regulatory protein (STM3357) and
+putative cation transporter (STM3356) genes, partial cds
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  23 length=45759 depth=1.12x                                         538     1e-153
+
+
+> 23 length=45759 depth=1.12x
+Length=45759
+
+ Score = 538 bits (291),  Expect = 1e-153
+ Identities = 291/291 (100%), Gaps = 0/291 (0%)
+ Strand=Plus/Minus
+
+Query  1     AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4027  AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  3968
+
+Query  61    CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3967  CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  3908
+
+Query  121   GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3907  GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  3848
+
+Query  181   TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3847  TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  3788
+
+Query  241   ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  291
+             |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3787  ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  3737
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1314890280
+
+
+  Database: User specified sequence set (Input: S2-2C_S64_L001_001.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 4,871,497
+  Number of sequences in database:  73
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+
+-----------------------------------------------------------------------
+
+Database: User specified sequence set (Input: S2-3B_S19_L001_001.fasta).
+           76 sequences; 4,870,999 total letters
+
+
+
+Query= AY211490.1 Salmonella enterica subsp. enterica serovar Paratyphi B
+NCTC 5706 putative gntR family regulatory protein (STM3357) and
+putative cation transporter (STM3356) genes, partial cds
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  23 length=45762 depth=1.14x                                         538     1e-153
+
+
+> 23 length=45762 depth=1.14x
+Length=45762
+
+ Score = 538 bits (291),  Expect = 1e-153
+ Identities = 291/291 (100%), Gaps = 0/291 (0%)
+ Strand=Plus/Plus
+
+Query  1      AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41736  AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  41795
+
+Query  61     CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  120
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41796  CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  41855
+
+Query  121    GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  180
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41856  GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  41915
+
+Query  181    TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  240
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41916  TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  41975
+
+Query  241    ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  291
+              |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  41976  ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  42026
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1314738810
+
+
+  Database: User specified sequence set (Input: S2-3B_S19_L001_001.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 4,870,999
+  Number of sequences in database:  76
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+
+-----------------------------------------------------------------------
+
+Database: User specified sequence set (Input: S4-3C_S18_L001_001.fasta).
+           76 sequences; 4,871,003 total letters
+
+
+
+Query= AY211490.1 Salmonella enterica subsp. enterica serovar Paratyphi B
+NCTC 5706 putative gntR family regulatory protein (STM3357) and
+putative cation transporter (STM3356) genes, partial cds
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  23 length=45759 depth=1.16x                                         538     1e-153
+
+
+> 23 length=45759 depth=1.16x
+Length=45759
+
+ Score = 538 bits (291),  Expect = 1e-153
+ Identities = 291/291 (100%), Gaps = 0/291 (0%)
+ Strand=Plus/Minus
+
+Query  1     AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4027  AATATGCTGACCCGCTATGTTGGTGACCCTTCTGCCTGATCTTTTCGCCTGCGTGAGCAT  3968
+
+Query  61    CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3967  CGCAGGCGCTTCAACCAATTCTTCAATTCTATTAATCACGTCCAGTAACGATCTAACCAC  3908
+
+Query  121   GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3907  GATCTTGATGTAGATCCCACTCCTGCATCTTTCCTGAGAAACGATTTGACTTAGTTTTTG  3848
+
+Query  181   TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3847  TATGGGAATAATTTCTCCCTGTCAACATTGGATACAATATCATATATCATTGATTGGATA  3788
+
+Query  241   ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  291
+             |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3787  ATTATAAATATGGAACCCATTACCCTTACCTTATGTTTATTGGTGTTCGCT  3737
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1314739890
+
+
+  Database: User specified sequence set (Input: S4-3C_S18_L001_001.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 4,871,003
+  Number of sequences in database:  76
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
